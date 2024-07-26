@@ -1,0 +1,207 @@
+/* Estilos para el contenedor principal */
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #2c3e50; /* Fondo oscuro para todo el documento */
+  color: #ecf0f1; /* Color claro para el texto */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #334b87; /* Fondo oscuro para el root */
+}
+
+.main-content {
+  flex: 1;
+  background-color: #c2cbd3; /* Fondo oscuro para el contenido principal */
+}
+
+.navbar-dark {
+  background-color: #151616;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+/* Estilos para el formulario de inicio de sesión */
+.form-container {
+  max-width: 500px; /* Ancho máximo aumentado */
+  width: 50%; /* Asegura que el formulario use el ancho completo disponible */
+  margin: auto;
+  padding: 3rem; /* Padding aumentado */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #34495e; /* Fondo más oscuro */
+  color: #ecf0f1; /* Color del texto claro */
+}
+
+.form-container .form-label {
+  font-weight: bold;
+  font-size: 1.2rem; /* Tamaño de fuente aumentado */
+}
+
+.form-container .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1.1rem; /* Tamaño de fuente aumentado */
+  padding: 0.75rem 1.5rem; /* Padding aumentado */
+}
+
+.form-container input {
+  font-size: 1.1rem; /* Tamaño de fuente aumentado */
+  padding: 0.75rem; /* Padding aumentado */
+}
+
+
+footer {
+  background-color: #131314;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 0;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #bdc3c7; /* Color del texto secundario */
+}
+----------------------------------------
+.movie-detail-card {
+  max-width: 900px; /* Ajusta según sea necesario */
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #2c3e50; /* Color de fondo oscuro */
+  color: #ecf0f1; /* Color del texto claro */
+}
+
+.movie-image {
+  max-height: 500px; /* Ajusta según sea necesario */
+  object-fit: cover;
+  
+}
+
+.card-body {
+  padding: 2rem;
+  background-color: #9bbcde;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #222528; /* Color del texto secundario */
+  margin-bottom: 1rem;
+}
+
+/* Estilos adicionales */
+body {
+  background-color: #34495e; /* Color de fondo general */
+}
+
+.button-primary {
+  background-color: #3498db;
+  border-color: #2980b9;
+}
+
+.button-primary:hover {
+  background-color: #2980b9;
+  border-color: #1f618d;
+}
+-------------------------------
+/* CSS para el Buscador */
+.buscador-form {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  background-color: #34495e;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #ecf0f1;
+}
+
+.buscador-form .form-control {
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.buscador-form .btn-primary {
+  font-size: 1.1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.buscador-form .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.favorite-container h2,
+.favorite-container p {
+  color: white;
+}
+.favorite-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.favorite-btn:hover {
+  opacity: 0.7;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
